@@ -125,7 +125,8 @@ let gameObject = goodPractices => {
     }
 }
 
-console.log(gameObject);
+console.log(gameObject());
+
 function homeTeamName() {
     let object = gameObject()
     return object['home']['teamName']
@@ -148,6 +149,7 @@ function homeTeamName() {
                 biggestShoeRebounds = players[player].rebounds;
           }
     }
-    return biggestShoeRebounds;
+    // return biggestShoeRebounds;
 }
+biggestShoeRebounds()
 console.log(bigShoeRebounds())
